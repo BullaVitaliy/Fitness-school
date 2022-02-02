@@ -12,19 +12,19 @@
     "plugins": [
       "prettier"
     ],
-    
+
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
     "[javascript]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
     },
     "[html]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
     },
     "[json]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
     },
     "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true,
-
+    "eslint.alwaysShowStatus": true
+    
   }

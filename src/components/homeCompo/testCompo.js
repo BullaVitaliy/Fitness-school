@@ -1,16 +1,17 @@
 import React from "react";
 
+let fff = 0;
 
-function testCompo() {
+                        function testCompo() {
 
 
-    return(
-        <>
-            <div className="wrapper">
-                <div className="container">
+                                                return(
+                                                        <>
+                <div className="wrapper">
+                          <div className="container">
                     <p>tttt</p>
-                </div>
-            </div>
+                                         </div>
+                     </div>
         </>
     );
 }
