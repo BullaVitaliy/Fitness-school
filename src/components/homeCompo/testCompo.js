@@ -1,17 +1,15 @@
-import React from "react";
+import React from 'react';
 
-let fff = 0;
+    let ffdff = 0;
 
-                        function testCompo() {
-
-
-                                                return(
-                                                        <>
-                <div className="wrapper">
-                          <div className="container">
-                    <p>tttt</p>
-                                         </div>
-                     </div>
-        </>
-    );
+function testCompo() {  
+  return (
+    <>
+                                     <div className="wrapper">
+                    <div className="container">
+                        <p>tttt {coundt}</p>
+                    </div>
+      </div>
+    </>
+  );
 }
