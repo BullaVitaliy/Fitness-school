@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
+//STYLES
+import './dist/styleMenu.css';
+
 //PAGES
 import ContactsPage from './../pages/contactsPage';
 import AboutPage from './../pages/aboutPage';
@@ -19,26 +22,26 @@ function routesMenu() {
       </Routes>
 
       <div>
-        <nav>
-          <ul>
+        <nav className="wrapper">
+          <ul className="container">
             <li>
-              <Link className="homeLink" to="/">
-                Головна
+              <Link className="home link " to="/">
+                <p className="menu_item first_item">Головна</p>
               </Link>
             </li>
             <li>
-              <Link className="coursesLink" to="/courses">
-                Курси
+              <Link className="courses link" to="/courses">
+                <p className="menu_item first_second">Курси</p>
               </Link>
             </li>
             <li>
-              <Link className="aboutLink" to="/about">
-                Про·нас
+              <Link className="about link" to="/about">
+                <p className="menu_item first_third">Про·нас</p>
               </Link>
             </li>
             <li>
-              <Link className="contactsLink" to="/contacts">
-                Контакти
+              <Link className="contacts link" to="/contacts">
+                <p className="menu_item last_item">Контакти</p>
               </Link>
             </li>
           </ul>

@@ -1,0 +1,39 @@
+.wrapper {
+  position: absolute;
+  top: 90vh;
+  left: 35.15vw;
+  z-index: 100;
+}
+.wrapper .container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+.wrapper .container .link {
+  text-decoration: none;
+}
+.wrapper .container .menu_item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 0.5em;
+  color: white;
+  transition-duration: 0.2s;
+}
+.wrapper .container .menu_item:hover {
+  color: #D1D1D1;
+  transition-duration: 0.15s;
+}
+.wrapper .container .first_item {
+  margin-left: 1em;
+}
+.wrapper .container .last_item {
+  margin-right: 1em;
+}
+.wrapper .container:hover {
+  transform: scale(1.02);
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+}
