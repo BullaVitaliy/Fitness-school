@@ -11,8 +11,6 @@ import CoursesPage from './../pages/coursesPage';
 import HomePage from './../pages/homePage';
 
 function routesMenu() {
-
-
   return (
     <BrowserRouter>
       <Routes>
@@ -28,22 +26,30 @@ function routesMenu() {
           <ul className="container">
             <li>
               <Link className="link " to="/">
-                <p tabIndex={1} className="menu_item home">Головна</p>
+                <p tabIndex={1} className="menu_item home">
+                  Головна
+                </p>
               </Link>
             </li>
             <li>
               <Link className="link" to="/courses">
-                <p tabIndex={2} className="menu_item courses">Курси</p>
+                <p tabIndex={2} className="menu_item courses">
+                  Курси
+                </p>
               </Link>
             </li>
             <li>
               <Link className="link" to="/about">
-                <p tabIndex={3} className="menu_item about">Про·нас</p>
+                <p tabIndex={3} className="menu_item about">
+                  Про·нас
+                </p>
               </Link>
             </li>
             <li>
               <Link className="link" to="/contacts">
-                <p tabIndex={4} className="menu_item contacts">Контакти</p>
+                <p tabIndex={4} className="menu_item contacts">
+                  Контакти
+                </p>
               </Link>
             </li>
           </ul>
