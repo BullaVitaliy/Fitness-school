@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss'
 
 //PAGES
 import AboutPage from './pages/aboutPage';
@@ -13,6 +13,7 @@ import RoutesMenu from './routes/routesMenu';
 function App() {
   return (
     <div className="App">
+      
       <RoutesMenu />
     </div>
   );

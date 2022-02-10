@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;CAC1B;;AAED,AAAA,gBAAgB,CAAA;EACZ,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "companyName.scss"
+    ],
+    "names": [],
+    "file": "companyName.css"
+}

@@ -1,0 +1,33 @@
+.wrapperCubs{
+    width: 46%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .containerCubs{
+        width: 480px;
+        height: 480px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        .cubs{
+            width: 150px;
+            height: 150px;
+            margin: 4px;
+            border-radius: 20px;
+            background-color: #C4C4C4;
+        }
+
+        .fivuCub{
+            background-color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 130px;
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 //STYLES
-import './dist/styleMenu.css';
+import './styleMenu.scss';
 
 //PAGES
 import ContactsPage from './../pages/contactsPage';

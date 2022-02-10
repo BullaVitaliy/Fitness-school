@@ -1,0 +1,45 @@
+.wrapperCardBenefits{
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 4em;  
+
+    .cards{
+        width: 24%;
+        min-height: 60vh;
+        max-height: 70vh;
+        // margin: 0.5%;
+        padding: 2%;
+        background-color: greenyellow;
+        border-radius: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        overflow: hidden;   
+        
+
+        .cardsHeader{
+            border-bottom: 2px solid #000;
+            line-height: 2.5em;
+        }
+
+        .cardsText{
+            margin-top: 0.8em;
+        }
+    }
+    
+    .one{
+        background: linear-gradient(90deg, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100%);
+    }
+    .two{
+        background: linear-gradient(270deg, rgba(255,134,122,1) 0%, rgba(251,244,194,1) 100%);
+    }
+    .three{
+        // background: rgb(67,233,123);
+        background: linear-gradient(90deg, rgba(67,233,123,1) 0%, rgba(56,249,215,0.9192051820728291) 100%);
+    }
+    .four{
+        background: rgb(196,196,196);
+background: linear-gradient(270deg, rgba(196,196,196,1) 0%, rgba(229,229,229,1) 100%);
+    }
+}
+
+
