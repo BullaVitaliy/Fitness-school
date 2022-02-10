@@ -1,7 +1,7 @@
 .wrapperCardBenefits{
     display: flex;
     justify-content: space-between;  
-    margin-bottom: 4em;  
+    margin-bottom: 7em;  
 
     .cards{
         width: 24%;
@@ -38,7 +38,7 @@
     }
     .four{
         background: rgb(196,196,196);
-background: linear-gradient(270deg, rgba(196,196,196,1) 0%, rgba(229,229,229,1) 100%);
+        background: linear-gradient(270deg, rgba(196,196,196,1) 0%, rgba(229,229,229,1) 100%);
     }
 }
 
