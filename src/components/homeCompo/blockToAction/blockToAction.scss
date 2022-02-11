@@ -1,0 +1,49 @@
+.wrapperBlockToAction {
+    width: 100%;
+    height: 90vh;
+    background-color: #f1eef8;
+    border-radius: 35px;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+
+
+    .wrapperTextButton {
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 2em;
+        margin: 4em;
+
+        .actionText {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 0.8em;
+        }
+
+        .buttonBuyBlack {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            border-radius: 25px;
+            border: 2px solid black;
+            padding: 0.5em 0;
+            background: white;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            width: 9em;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .buttonBuyBlack:hover {
+            box-shadow: none;
+            transition: 0.3s;
+        }
+
+    }
+
+
+}

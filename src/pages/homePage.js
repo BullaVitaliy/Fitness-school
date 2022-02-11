@@ -6,6 +6,9 @@ import './homePage.scss';
 import BlockBenefits from '../components/homeCompo/blockBenefits/blockBenefits';
 import BlockTitleHome from '../components/homeCompo/blockTitleHome/blockTitleHome';
 import MyCase from '../components/homeCompo/myCase/myCase';
+import MoreAbout from '../components/homeCompo/moreAbout/moreAbout';
+import BlockToAction from '../components/homeCompo/blockToAction/blockToAction';
+import Footer from '../components/universalCompo/footer/footer';
 
 function homePage() {
   return (
@@ -14,6 +17,9 @@ function homePage() {
         <BlockTitleHome />
         <BlockBenefits />
         <MyCase />
+        <MoreAbout />
+        <BlockToAction />
+        <Footer />
       </div>
     </div>
   );

@@ -1,0 +1,45 @@
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4em;
+
+    .columnOne{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+
+
+        .companyNamePosition{
+            margin-bottom: 1em;
+
+            .companyName{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 3em;
+                font-weight: 900;
+            }
+
+        }
+        
+    }
+
+    .columnTwo{
+        display: flex;
+        align-items: end;
+    }
+
+    .columnThree{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+        .linkFooter{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+
+}

@@ -1,13 +1,23 @@
 .containerBtnMoreCase{
-    //position
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2em;
+
     .textBtnMoreCase{
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;//edit response
+        font-size: 1.5em;
         font-weight: 600;
-        background-color: #38F9D7;//gradient
-        border-radius: 25px;
+        background: linear-gradient(180deg, #38F9D7 0%, #43E97B 100%);
+        border-radius: 23px;
         border: none;
-        padding: 10px;//edit response   
+        padding: 0.5em;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        transition: 0.5s;
+    }
+    .textBtnMoreCase:hover{  
+        box-shadow: none;
+        transition: 0.5s;    
     }
 }
 
